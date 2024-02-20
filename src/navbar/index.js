@@ -20,7 +20,7 @@ export const NavbarComponent = () => {
           }}
         >
           {" "}
-          Product Details{" "}
+          Product preview{" "}
         </h3>
 
 

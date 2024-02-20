@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { SidebarComponent } from "@/src/Sidebar";
 import { NavbarComponent } from "@/src/navbar";
-import { TableComponent } from "@/src/table";
+import { CardComponent } from "@/src/card";
 
 export default function Home() {
   return (
@@ -13,12 +13,11 @@ export default function Home() {
         <NavbarComponent />
         <div className={styles.center}>
           <div className={styles.whitebox}>
-            <div className={styles.container}>
-              <TableComponent />
+            <CardComponent />
+              
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
